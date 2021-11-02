@@ -15,6 +15,7 @@ public class Class2 {
      * I have this feature here
      */
     void feature2(){
+        System.out.println("Feature 2 accessed!!!");
 
     }
 }

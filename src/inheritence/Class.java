@@ -23,6 +23,6 @@ public class Class extends Class1 {
         Class c = new Class();
     }
     /**
-     * From this class Access Feature 2 without making any objects here.
+     * From this class Access Feature 2 without making any objects here.??????
      */
 }
