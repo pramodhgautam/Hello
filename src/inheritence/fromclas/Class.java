@@ -1,4 +1,4 @@
-package inheritence;
+package inheritence.fromclas;
 
 /**
  * @Author: utsab
@@ -16,11 +16,13 @@ public class Class extends Class1 {
 //     * Default Call
 //     */
     Class(){
+        this.feature2();
+        super.feature2();
         System.out.println("Class Default Con Called");
     }
 
     public static void main(String[] args) {
-        Class c = new Class();
+        new Class().feature2();
     }
     /**
      * From this class Access Feature 2 without making any objects here.??????

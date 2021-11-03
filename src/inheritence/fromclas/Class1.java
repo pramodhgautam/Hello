@@ -1,4 +1,4 @@
-package inheritence;
+package inheritence.fromclas;
 
 /**
  * @Author: utsab
@@ -6,7 +6,7 @@ package inheritence;
  * @At: 11/2/21
  */
 
-public class Class1  extends Class2{
+public class Class1  extends Class2 {
     /**
      * I have this feature here
      */
@@ -22,4 +22,9 @@ public class Class1  extends Class2{
         System.out.println("Method Default 1" );
     }
 
+    protected void feature2(){
+//        super.feature2();
+        System.out.println("Feature 2 from Feature 1 accessed!!!");
+
+    }
 }
